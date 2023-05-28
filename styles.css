@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'GenshinFont';
+  src: url(Font/font.ttf);
+}
+
+body {
+  background-image: url(Images/Starry\ Sky.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  font-family: "GenshinFont", sans-serif;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  color: #e6eef6;
+}
+
+nav {
+  background-color: transparent;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+  color: #e6eef6;
+  width: 100%;
+  text-align: center;
+}
+
+/*Styles for the nav ul*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Styles for the nav li*/
+nav li {
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+
+a:link {
+  color: #e6eef6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e6eef6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2b70a7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  box-shadow: 0 -5px 4px rgba(0, 0, 0, 0.5);
+  color: #e6eef6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h3 {
+  text-align: left;
+  flex-grow: 1;
+  margin: 0;
+  padding-left: 5px;
+}
+
+footer img {
+  padding: 5px;
+}
+
+#index-article{
+  float: left;
+  width: 60%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#index-article h2{
+padding-left: 15px;
+}
+
+#index-article p{
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+
+#index-aside{
+  float: right;
+  width: 40%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#index-aside img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#kazuha-gif{
+  padding-top: 5px;
+}
