@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <script src="script-screenshots.js"></script>
 </head>
 
 <body>
@@ -23,13 +24,16 @@
         </ul>
     </nav>
 
-    <section>
-        <img src="Images/logo.png" alt="Logo" width="167" height="72">
+    <section class="slideshow">
+        <img class="slide" src="Images/sc1.png" alt="Image 1">
+        <img class="slide" src="Images/sc2.png" alt="Image 2">
+        <img class="slide" src="Images/sc3.png" alt="Image 3">
+        <img class="slide" src="Images/sc4.png" alt="Image 4">
+        <img class="slide" src="Images/sc5.png" alt="Image 5">
+      
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
     </section>
-
-    <aside>
-
-    </aside>
 
     <footer>
         <h3>© 2023 Al Rights Reserved</h3>
