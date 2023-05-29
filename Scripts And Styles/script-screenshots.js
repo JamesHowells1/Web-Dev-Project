@@ -1,4 +1,3 @@
-// Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", function() {
   // Get references to HTML elements
   const slides = document.getElementsByClassName('slide');

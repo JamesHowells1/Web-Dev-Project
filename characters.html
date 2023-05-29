@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- Navigation bar -->
   <nav class="nav">
     <a href="index.html"><img src="Images/logo.png" alt="Logo" width="167" height="72"></a>
     <ul>
@@ -25,7 +26,9 @@
   </nav>
 
   <section>
+    <!-- Main content section -->
     <article id="characters-article">
+      <!-- Introduction to characters -->
       <section id="character-intro">
         <h2>Characters</h2>
         <p>Genshin Impact boasts a wide range of characters, each with their own distinct personalities and abilities.
@@ -59,20 +62,27 @@
           participation in the game's various activities.</p>
       </section>
 
+      <!-- Favorite character images -->
       <section id="character-images">
         <h2>My Favourite Characters</h2>
 
+        <!-- Character cards -->
         <section id="character-cards">
+          <!-- Chongyun -->
           <section id="chongyun"
             onclick="openPopup('Images/Chongyun_Card.webp', 'Chongyun', 'Born with an excess of yang (positive) energy, Chongyun has become a highly effective exorcist in Liyue &mdash; so effective to the point where he has not seen a spirit himself, as they immediately flee when he approaches.')">
             <img src="Images/Chongyun_Card.webp" alt="Chongyun">
             <h2>Chongyun</h2>
           </section>
+
+          <!-- Xiao -->
           <section id="xiao"
             onclick="openPopup('Images/Xiao_Card.webp', 'Xiao', 'He is an adeptus, under the name Alatus, and the sole surviving member of the five foremost Yakshas dispatched by Morax to subdue the demonic spirits that plagued Liyue. He currently resides at Wangshu Inn and mostly restrains himself from large crowds and social interactions.')">
             <img src="Images/Xiao_Card.webp" alt="Xiao">
             <h2>Xiao</h2>
           </section>
+
+          <!-- Kazuha -->
           <section id="kazuha"
             onclick="openPopup('Images/Kaedehara_Kazuha_Card.webp', 'Kaedehara Kazuha', 'A wandering samurai of the once-famed Kaedehara Clan with an ability to read the sounds of nature, Kazuha is a temporary crewmember of The Crux. Despite being burdened by the many happenings of his past, Kazuha still maintains an easygoing disposition.')">
             <img src="Images/Kaedehara_Kazuha_Card.webp" alt="Kazuha">
@@ -83,6 +93,7 @@
     </article>
   </section>
 
+  <!-- Footer section -->
   <footer>
     <h3>© 2023 Al Rights Reserved</h3>
     <a href="https://www.facebook.com/"><img src="Images/facebook.png"></a>
@@ -90,6 +101,7 @@
     <a href="https://www.twitter.com/"><img src="Images/twitter.png"></a>
   </footer>
 
+  <!-- Character popup elements -->
   <div id="character-popup-overlay" onclick="closePopup()"></div>
   <div id="character-popup-container"></div>
 
