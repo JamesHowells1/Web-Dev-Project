@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'GenshinFont';
-  src: url(Font/font.ttf);
+  src: url(../Font/font.ttf);
 }
 
 body {
-  background-image: url(Images/Starry\ Sky.webp);
+  background-image: url(../Images/Starry\ Sky.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
