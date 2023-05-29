@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+      <script src="script.js"></script>
 </head>
 
 <body>
@@ -24,12 +25,38 @@
     </nav>
 
     <section>
-        <img src="Images/logo.png" alt="Logo" width="167" height="72">
+        <article id="characters-article">
+            <section id="character-intro">
+                <h2>Characters</h2>
+                <p>Genshin Impact boasts a wide range of characters, each with their own distinct personalities and abilities. From the stoic and determined to the playful and mischievous, the characters in the game offer a diverse and engaging cast. One of the standout features of Genshin Impact is its elemental system, and each character is associated with a specific element, such as Pyro, Hydro, Electro, Anemo, and more. This adds depth and strategic gameplay as players can create elemental reactions by combining different characters' abilities.</p>
+                <p>The characters in Genshin Impact are not just vessels for combat but also come with their own unique stories and backstories. As players progress through the game, they have the opportunity to learn more about each character's history, motivations, and personal struggles. This adds a layer of depth to the overall narrative and allows players to connect with the characters on a deeper level.</p>
+                <p>Furthermore, the characters in Genshin Impact exhibit a wide range of traits and behaviors, making them feel more alive and relatable. Some characters are known for their unwavering loyalty and sense of justice, while others may have a mischievous and carefree nature. Additionally, character interactions through dialogue and quests help to showcase their distinct personalities, forming dynamic relationships and memorable moments.</p>
+                <p>Additionally, Genshin Impact regularly introduces new characters through updates, providing players with fresh and exciting additions to the roster. These characters often come with their own unique playstyles and abilities, allowing players to experiment with different strategies and team compositions.</p>
+                <p>Overall, the characters in Genshin Impact bring life and depth to the game's world. Through their diverse personalities, engaging stories, and strategic gameplay, they contribute to the immersive experience and offer players a wide range of options for exploration, combat, and storytelling.</p>
+                <h2>Obtaining Characters</h2>
+                <p>In Genshin Impact, obtaining characters is primarily done through the game's gacha system. Players can use in-game currency, called Primogems, to make wishes and unlock new characters. Primogems can be earned by completing quests, exploring the world, and participating in events. Players can also use real money to purchase Primogems. When making wishes, players have the chance to obtain different rarity characters, ranging from 4-star to 5-star. Additionally, the game periodically introduces new characters through limited-time banners, which may increase the chances of obtaining specific characters during that period. Genshin Impact also provides opportunities to obtain characters through in-game events, story quests, and special promotions. Building a diverse roster of characters requires a combination of luck, strategic resource management, and participation in the game's various activities.</p>
+            </section>
+
+            <section id="character-images">
+                <h2>My Favourite Characters</h2>
+              
+                <section id="character-cards">
+                  <section id="chongyun" onclick="openPopup('Images/Chongyun_Card.webp', 'Chongyun', 'Born with an excess of yang (positive) energy, Chongyun has become a highly effective exorcist in Liyue &mdash; so effective to the point where he has not seen a spirit himself, as they immediately flee when he approaches.')">
+                    <img src="Images/Chongyun_Card.webp" alt="Chongyun">
+                    <h2>Chongyun</h2>
+                  </section>
+                  <section id="xiao" onclick="openPopup('Images/Xiao_Card.webp', 'Xiao', 'He is an adeptus, under the name Alatus, and the sole surviving member of the five foremost Yakshas dispatched by Morax to subdue the demonic spirits that plagued Liyue. He currently resides at Wangshu Inn and mostly restrains himself from large crowds and social interactions.')">
+                    <img src="Images/Xiao_Card.webp" alt="Xiao">
+                    <h2>Xiao</h2>
+                  </section>
+                  <section id="kazuha" onclick="openPopup('Images/Kaedehara_Kazuha_Card.webp', 'Kaedehara Kazuha', 'A wandering samurai of the once-famed Kaedehara Clan with an ability to read the sounds of nature, Kazuha is a temporary crewmember of The Crux. Despite being burdened by the many happenings of his past, Kazuha still maintains an easygoing disposition.')">
+                    <img src="Images/Kaedehara_Kazuha_Card.webp" alt="Kazuha">
+                    <h2>Kazuha</h2>
+                  </section>
+                </section>
+              </section>
+        </article>
     </section>
-
-    <aside>
-
-    </aside>
 
     <footer>
         <h3>© 2023 Al Rights Reserved</h3>
@@ -37,6 +64,10 @@
         <a href="https://www.instagram.com/"><img src="Images/instagram.png"></a>
         <a href="https://www.twitter.com/"><img src="Images/twitter.png"></a>
     </footer>
+
+    <div id="popup-overlay" onclick="closePopup()"></div>
+    <div id="popup-container"></div>
+
 </body>
 
 </html>
