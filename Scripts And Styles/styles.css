@@ -1,3 +1,5 @@
+/*all pages CSS*/
+
 @font-face {
   font-family: 'GenshinFont';
   src: url(../Font/font.ttf);
@@ -24,14 +26,12 @@ nav {
   text-align: center;
 }
 
-/*Styles for the nav ul*/
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-/*Styles for the nav li*/
 nav li {
   font-size: 35px;
   display: inline-block;
@@ -81,6 +81,8 @@ footer img {
   padding: 5px;
 }
 
+/*Homepage CSS*/
+
 #index-article {
   float: left;
   width: 60%;
@@ -118,6 +120,8 @@ footer img {
 #kazuha-gif {
   padding-top: 5px;
 }
+
+/*Characters page CSS*/
 
 #characters-article {
   display: flex;
@@ -234,6 +238,8 @@ footer img {
   text-align: center;
 }
 
+/*Locations Page CSS*/
+
 #locations-intro {
   text-align: center;
   padding-top: 15px;
@@ -271,7 +277,6 @@ footer img {
   color: #ceb689;
   font-size: 30px;
 }
-
 
 #location-popup-overlay {
   display: none;
@@ -314,6 +319,8 @@ footer img {
 #location-popup-container p {
   text-align: center;
 }
+
+/*Screenshot page CSS*/
 
 .slideshow {
   position: relative;
